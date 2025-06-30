@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bar{
+    padding: 23px;
+    background: #7c7e80;
+}
+.fbar{
+    padding: 13px;
+    background: #1d4463;
+    text-align: center;
+    font-family: -webkit-body;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+}
+.nitem{
+    margin: 0 34px;
+    list-style: none;
+}
+.nitem a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.nitem a:hover{
+    color: black;
+}
+
+
+#sec1::before{
+    content: "";
+    position: absolute;
+    background-color: white;
+    background-image: url(../img/newok.JPG);
+    opacity: 0.1;
+    /* background-repeat: no-repeat; */
+    height: 312px;
+    width: 100%;
+    /* margin: auto; */
+}
+
+.imge{
+    position: relative !important;
+    font-family: cursive;
+    height: 312px;
+    width: 724px; 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+
+    font-size: 18px;
+    opacity: 100 !important;
+}
+
+.dload{
+    padding: 7px;
+    border: 1px solid black;
+    margin-top: 19px;
+    border-radius: 10px;
+    background-color: #fbabfb;
+    cursor: pointer;
+}
+#sec2{
+    font-family: -webkit-pictograph;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-image: radial-gradient(white,#11eaf5);
+}
+#realver{
+    background-color: rgb(46 116 247 / 89%);
+    color: white;
+    border-block: none;
+    font-size: 25px;
+}
+#sec4{
+    font-family: cursive;
+}
+#sec4 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.formitem{
+    margin-bottom: 17px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 26px;
+}
+
+#tarea{
+    height: 146px;
+}
+#sec3{
+    display: flex;
+}
+.box{
+    width: 33%;
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f1f7fb;
+}
+.tittle{
+    font-family: cursive;
+}
+.para{
+    font-family: serif;
+}
+
+.imagec{
+    height: 110px;
+    border: 1px none white;
+    border-radius: 17px;
+}
+.submit{
+    margin-bottom: 14px;
+    padding: 9px;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
